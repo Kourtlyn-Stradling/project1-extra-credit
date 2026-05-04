@@ -13,11 +13,37 @@ html {
   font-family: ;
 }
 
-body {
+main {
   margin: auto;
 }
 
 header {
   width: 100%;
   padding: 1.5rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+nav a {
+  color: #272343;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 3rem auto;
+  text-align: center;
+  color: #272343;
+}
+
+h3 {
+  text-align: center;
+  margin: 2rem auto;
 }
