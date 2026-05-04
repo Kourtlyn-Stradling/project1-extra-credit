@@ -1,25 +1,23 @@
-/* a minimalist set of CSS resets */
-
-/* default to border-box */
-html {
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  font-size: 16px;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+html {
+  color: #2d334a;
+  line-height: 1.4;
+  font-size: 16pt;
+  background-color: #fffffe;
+  /* CHOOSE FONTS AND EMBED IN HTML FIRST */
+  font-family: ;
 }
 
-/* adjust typography defaults */
 body {
-  margin: 1rem;
-  font-family: sans-serif;
-  line-height: 1.5;
+  margin: auto;
 }
 
-/* images and videos max out at full width */
-img,
-video {
-  height: auto;
-  max-width: 100%;
+header {
+  width: 100%;
+  padding: 1.5rem;
 }
