@@ -59,9 +59,9 @@ h2 {
 
 .button {
   max-width: 20vw;
-  min-width: 200px;
+  min-width: 350px;
   background-color: #ffd803;
-  margin: 1rem auto 4rem auto;
+  margin: 6rem auto 4rem auto;
   padding: 1rem 2rem;
   text-align: center;
   text-transform: uppercase;
@@ -84,6 +84,7 @@ h2 {
 }
 
 footer {
+  margin-top: 200px;
   padding: 1rem 2rem;
   background-color: #e3f6f5;
 }
