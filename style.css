@@ -14,6 +14,7 @@ html {
 }
 
 main {
+  width: 75vw;
   margin: auto;
 }
 
@@ -43,7 +44,40 @@ h1 {
   color: #272343;
 }
 
-h3 {
+h2 {
   text-align: center;
   margin: 2rem auto;
+}
+
+.home-page p {
+  text-align: center;
+  margin: 0 auto 2rem auto;
+}
+
+.button {
+  max-width: 20vw;
+  min-width: 200px;
+  background-color: #ffd803;
+  margin: 1rem auto 4rem auto;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  border-radius: 50px;
+}
+
+.button a {
+  color: #272343;
+  text-decoration: none;
+  font-size: 1.25vw;
+}
+
+.hero {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+footer {
+  padding: 1rem 2rem;
+  background-color: #e3f6f5;
 }
