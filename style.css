@@ -9,8 +9,7 @@ html {
   line-height: 1.4;
   font-size: 16pt;
   background-color: #fffffe;
-  /* CHOOSE FONTS AND EMBED IN HTML FIRST */
-  font-family: ;
+  font-family: "Elms Sans", Helvetica, sans-serif;
 }
 
 main {
@@ -38,7 +37,8 @@ nav a {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 6.5vw;
+  font-family: "Bagel Fat One", "Elms Sans", Helvetica, sans-serif;
   margin: 3rem auto;
   text-align: center;
   color: #272343;
@@ -47,6 +47,9 @@ h1 {
 h2 {
   text-align: center;
   margin: 2rem auto;
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
 }
 
 .home-page p {
@@ -70,11 +73,14 @@ h2 {
   color: #272343;
   text-decoration: none;
   font-size: 1.25vw;
+  font-weight: 700;
 }
 
 .hero {
   object-fit: cover;
   border-radius: 10px;
+  width: 100%;
+  height: 50%;
 }
 
 footer {
