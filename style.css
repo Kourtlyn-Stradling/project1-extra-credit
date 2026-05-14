@@ -122,6 +122,9 @@ h2 {
 }
 
 /* BLOG PAGE */
+
+            /* JUMP TO STYLES */
+
 .jump-to {
   margin-bottom: 5rem;
 }
@@ -154,6 +157,49 @@ h2 {
   background-color: #ffd803;
   border-radius: 50rem;
   padding: 0.75rem;
+}
+
+            /* SUPPLIES SECTION STYLES */
+
+.supplies {
+  background-color: #e3f6f5;
+  border-radius: 10px;
+  padding: 1rem 3rem 2rem;
+}
+
+li ul {
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+            /* GROUP SIZE STYLES */
+
+.group-size p {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+            /* HOW TO PLAY STYLES */
+
+.how-to-play img {
+  width: 70%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.how-to-play p {
+  padding-bottom: 1rem;
+}
+
+.how-to-play h4 {
+  padding-bottom: 0.25rem;
+  font-style: italic;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 2px solid #bae8e8;
+  margin: 2rem 0 0.5rem;
 }
 
 /* FOOTER */
