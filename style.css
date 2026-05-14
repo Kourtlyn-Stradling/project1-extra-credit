@@ -110,6 +110,9 @@ h2 {
   margin: 3rem auto;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
+}
+
+.top a {
   background-color: #ffd803;
   padding: 1rem;
   border-radius: 50px;
