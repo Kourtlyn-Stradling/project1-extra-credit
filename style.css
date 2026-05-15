@@ -202,6 +202,21 @@ li ul {
   margin: 2rem 0 0.5rem;
 }
 
+            /* RECOMMENDATIONS STYLES */
+
+.recommendations p {
+  padding-bottom: 1rem;
+}
+
+.recommendations h4 {
+  padding-bottom: 0.25rem;
+  font-style: italic;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 2px solid #bae8e8;
+  margin: 2rem 0 0.5rem;
+}
+
 /* FOOTER */
 
 footer {
