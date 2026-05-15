@@ -136,6 +136,12 @@ h2 {
   text-decoration: none;
   color: #272343;
   font-weight: 700;
+  transition: border 0.2s ease, font-size 0.2s ease;
+}
+
+.top a:hover {
+  border: 2px solid #272343;
+  font-size: 1.1rem;
 }
 
 /* BLOG PAGE */
