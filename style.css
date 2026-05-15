@@ -166,9 +166,22 @@ h2 {
   transition: border 0.2s ease, font-size 0.2s ease;
 }
 
+.top a:link {
+  color: #272343;
+}
+
+.top a:visited {
+  color: #272343;
+}
+
 .top a:hover {
   border: 2px solid #272343;
   font-size: 1.1rem;
+}
+
+.top a:active {
+  color: #272343;
+  font-weight: 400;
 }
 
 /* BLOG PAGE */
