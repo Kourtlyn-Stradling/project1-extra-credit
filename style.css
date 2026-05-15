@@ -318,6 +318,7 @@ footer form {
 }
 
 .newsletter legend {
+  font-family: "Bagel Fat One", "Elms Sans", Helvetica, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
 }
@@ -347,6 +348,11 @@ footer form {
   font-weight: 700;
   letter-spacing: 0.1rem;
   color: #272343;
+  transition: font-size 0.2s ease;
+}
+
+.newsletter button:hover {
+  font-size: 1rem;
 }
 
 .sources {
