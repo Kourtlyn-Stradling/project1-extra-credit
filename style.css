@@ -82,6 +82,12 @@ h2 {
   text-decoration: none;
   font-size: 1.25vw;
   font-weight: 700;
+  transform: border 0.2s, font-style 0.2s;
+}
+
+.button a:hover {
+  border: 2px solid #272343;
+  font-style: italic;
 }
 
 .hero {
