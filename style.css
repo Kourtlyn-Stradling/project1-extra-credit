@@ -390,15 +390,17 @@ footer form {
 
 /* PSEUDO CLASSES */
 a {
+  text-decoration: none;
   transition: font-weight 0.2s ease;
 }
 
 a:link {
-  color: #2d334a;
+  color: #40BFBF;
 }
 
 a:visited {
   text-decoration: underline;
+  color: #40BFBF;
 }
 
 a:hover {
