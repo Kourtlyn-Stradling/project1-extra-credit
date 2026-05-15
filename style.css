@@ -375,6 +375,26 @@ footer form {
   padding: 1rem;
 }
 
+/* PSEUDO CLASSES */
+a {
+  transition: font-weight 0.2s ease;
+}
+
+a:link {
+  color: #2d334a;
+}
+
+a:visited {
+  text-decoration: underline;
+}
+
+a:hover {
+  font-weight: 700;
+}
+
+a:active {
+  color: #bae8e8;
+}
 
 
 
