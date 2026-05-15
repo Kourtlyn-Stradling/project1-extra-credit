@@ -67,9 +67,6 @@ h2 {
 }
 
 .button {
-  max-width: 20vw;
-  min-width: 350px;
-  background-color: #ffd803;
   margin: 6rem auto 4rem auto;
   padding: 1rem 2rem;
   text-align: center;
@@ -79,16 +76,20 @@ h2 {
 }
 
 .button a {
+  background-color: #ffd803;
+  padding: 1rem;
+  border-radius: 50px;
   color: #272343;
   text-decoration: none;
-  font-size: 1.25vw;
+  font-size: 1rem;
   font-weight: 700;
-  transform: border 0.2s, font-style 0.2s;
+  border: 2px solid transparent;
+  transition: border 0.2s ease, font-size 0.2s ease;
 }
 
 .button a:hover {
   border: 2px solid #272343;
-  font-style: italic;
+  font-size: 1.1rem;
 }
 
 .hero {
