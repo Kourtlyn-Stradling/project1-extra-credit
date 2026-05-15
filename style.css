@@ -34,6 +34,14 @@ nav {
 nav a {
   color: #272343;
   text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: font-weight 0.2s ease, background-color 0.2s ease, border-radius 0.2s ease;
+}
+
+nav a:hover {
+  font-weight: 700;
+  background-color: #ffd803;
+  border-radius: 50px;
 }
 
 h1 {
