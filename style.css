@@ -377,6 +377,23 @@ footer form {
   color: #2d334a;
   text-decoration: none;
   padding-right: 1rem;
+  transition: font-weight 0.2s ease;
+}
+
+.sources a:link {
+  color: #2d334a;
+}
+
+.sources a:visited {
+  color: #0A0B10;
+}
+
+.sources a:hover {
+  font-weight: 700;
+}
+
+.sources a:active {
+  font-style: italic;
 }
 
 .copyright {
