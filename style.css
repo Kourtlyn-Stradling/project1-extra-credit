@@ -39,10 +39,23 @@ nav a {
   transition: font-weight 0.2s ease, background-color 0.2s ease, border-radius 0.2s ease;
 }
 
+nav a:link {
+  color: #272343;
+}
+
+nav a:visited {
+  color: #272343;
+}
+
 nav a:hover {
-  font-weight: 700;
-  background-color: #ffd803;
-  border-radius: 50px;
+    font-weight: 700;
+    background-color: rgb(255, 216, 3);
+    border-radius: 50px;
+}
+
+nav a:active {
+  color: #272343;
+  font-weight: 400;
 }
 
 h1 {
