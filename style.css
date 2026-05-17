@@ -525,6 +525,15 @@ a:active {
     }
 }
 
+/* 420px MEDIA QUERY */
+@media (max-width: 420px) {
+    /* BLOG PAGE */
+    .jump-to ol {
+      flex-direction: column;
+    }
+}
+
+
 
 
 
