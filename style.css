@@ -474,6 +474,45 @@ a:active {
   color: #bae8e8;
 }
 
+/* 530px MEDIA QUERY */
+@media (max-width: 530px) {
+    /* BLOG PAGE */
+    nav {
+      font-size: 0.75rem;
+    }
+    
+    .jump-to ol {
+      justify-content: space-around;
+    }
+    
+    h2 {
+      font-size: 1rem;
+    }
+    
+    .how-to-play img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .recommendations img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .questions form {
+      width: 75vw;
+    }
+    
+    .questions input {
+      width: 50vw;
+    }
+    
+    .questions button {
+      max-width: 50vw;
+      min-width: 25vw;
+    }
+}
+
 
 
 
