@@ -511,6 +511,13 @@ a:active {
       max-width: 50vw;
       min-width: 25vw;
     }
+
+    /* ABOUT PAGE */
+    .grid {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
 }
 
 
