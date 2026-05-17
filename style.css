@@ -82,7 +82,7 @@ h2 {
 
 .button {
   margin: 6rem auto 4rem auto;
-  padding: 1rem 2rem;
+  /*padding: 1rem 2rem;*/
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -517,6 +517,11 @@ a:active {
       display: flex;
       flex-direction: column;
       height: auto;
+    }
+
+    /* HOME PAGE */
+    .button a {
+      font-size: 3.5vw;
     }
 }
 
